@@ -22,6 +22,21 @@ QwizWhiz is an interactive quiz management system designed to create, manage, an
 - **APIs**: RESTful APIs for quiz and user management
 - **Deployment**: Docker, AWS/GCP
 
+## Repository Structure
+
+```
+QwizWhiz/
+│-- account/         # User authentication module
+│-- base/            # Base configurations and utilities
+│-- quiz/            # Quiz management module
+│-- static/          # Static files (CSS, JS, images)
+│-- templates/       # HTML templates
+│-- .gitignore       # Files to ignore in version control
+│-- README.md        # Project documentation
+│-- manage.py        # Django management script
+│-- requirements.txt # Project dependencies
+```
+
 ## Installation
 
 ### Prerequisites
@@ -34,7 +49,7 @@ QwizWhiz is an interactive quiz management system designed to create, manage, an
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/qwizwhiz.git
+   git clone https://github.com/krishna4672/qwizwhiz.git
    cd qwizwhiz
    ```
 2. Create a virtual environment (optional but recommended):
@@ -59,7 +74,7 @@ QwizWhiz is an interactive quiz management system designed to create, manage, an
    ```
 6. Run the backend:
    ```sh
-   python app.py
+   python manage.py runserver
    ```
 7. Run the frontend:
    ```sh
@@ -101,6 +116,6 @@ This project is licensed under the MIT License.
 For any questions or suggestions, feel free to reach out:
 
 - **Author**: Krishna Bhardwaj
-- **Email**: [krishnabhardwaj4672@gmail.com](mailto\:krishnabhardwaj4672@gmail.com)
-- **GitHub**: krishna4672
+- **Email**: [krishnabhardwaj4672@gmail.com](mailto:krishnabhardwaj4672@gmail.com)
+- **GitHub**: [krishna4672](https://github.com/krishna4672)
 
